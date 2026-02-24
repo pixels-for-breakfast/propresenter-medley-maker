@@ -1,0 +1,11 @@
+[package]
+name = "medley-core"
+edition.workspace = true
+version.workspace = true
+authors.workspace = true
+
+[dependencies]
+propresenter-parser = { path = "../propresenter-parser" }
+serde = { workspace = true, features = ["derive"] }
+serde_json = { workspace = true }
+chrono = { version = "0.4", features = ["serde"] }
