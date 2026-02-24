@@ -1,0 +1,5 @@
+/target/
+Cargo.lock
+*.pro.backup
+test-files/*.pro
+.DS_Store
