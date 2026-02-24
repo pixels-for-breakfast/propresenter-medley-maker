@@ -1,0 +1,11 @@
+[package]
+name = "propresenter-parser"
+edition.workspace = true
+version.workspace = true
+authors.workspace = true
+
+[dependencies]
+serde = { workspace = true, features = ["derive"] }
+serde_json = { workspace = true }
+regex = "1.10"
+thiserror = { workspace = true }
