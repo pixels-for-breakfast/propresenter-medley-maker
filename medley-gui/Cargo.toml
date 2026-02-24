@@ -1,0 +1,10 @@
+[package]
+name = "medley-gui"
+edition.workspace = true
+version.workspace = true
+authors.workspace = true
+
+[dependencies]
+medley-core = { path = "../medley-core" }
+propresenter-parser = { path = "../propresenter-parser" }
+anyhow = { workspace = true }
