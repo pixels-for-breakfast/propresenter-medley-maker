@@ -1,0 +1,12 @@
+[package]
+name = "medley-cli"
+edition.workspace = true
+version.workspace = true
+authors.workspace = true
+
+[dependencies]
+medley-core = { path = "../medley-core" }
+propresenter-parser = { path = "../propresenter-parser" }
+clap = { workspace = true, features = ["derive"] }
+serde_json = { workspace = true }
+anyhow = { workspace = true }
